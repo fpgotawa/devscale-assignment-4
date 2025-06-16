@@ -16,7 +16,7 @@ export default async function Page({ params }) {
     <div className="flex justify-center">
       <Card className="w-[50%] my-4 p-4 space-y-2 bg-background/60">
         <div className="text-xl m-auto mb-4">
-          Update what you're feeling on{" "}
+          Update what you are feeling on{" "}
           {moment(mood.date).format("D MMMM YYYY")}
         </div>
         <UpdateForm data={mood} />
